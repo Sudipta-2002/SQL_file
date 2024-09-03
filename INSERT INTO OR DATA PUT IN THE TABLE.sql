@@ -1,0 +1,13 @@
+-- INSERT INTO employees
+-- VALUES (1, 'sudipta', 'paul', 23.50, '2023-07-20', 9641592946,
+--        'paulsudipta120@gmail.com'); 
+-- INSERT INTO employees
+-- VALUES (2, 'sumit', 'paul', 20.50, '2023-07-21', 9641592946,
+--        'paulsumit120@gmail.com'), 
+--        (2, 'sujit', 'paul', 18.50, '2023-07-27', 9641592946,
+--        'paulsujit120@gmail.com'),
+--        (2, 'sudip', 'paul', 16.50, '2023-07-30', 9641592946,
+--        'paulsudip20@gmail.com');
+/*putting the data only separate column*/
+-- INSERT INTO employees(employee_id,first_name,last_name,houry_pay,hire_date)
+--  VALUES (1, 'sumonta', 'paul', 23.50, '2023-07-20'); 
